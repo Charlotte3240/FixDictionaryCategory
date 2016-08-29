@@ -17,6 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSString *string = nil;
+    NSDictionary *dic = @{
+                          string:@"first key",
+                          @"testkey":@"testObject",
+                          @"last object":string
+                          };
+    NSLog(@"dic is %@",dic);
+    
 }
 
 - (void)didReceiveMemoryWarning {
